@@ -36,7 +36,21 @@ my_nums = ['one', 'two', 'three', "four", 'five']
 random.shuffle(my_nums)
 print(my_nums)
 
+import math
 
+print(math.floor(4.8))
+print(math.floor(-4.8))
 
+print(math.trunc(4.8))
+print(math.trunc(4.3))
+print(math.trunc(-4.8))
+
+print(oct(64))
+print(hex(64))
+print(bin(64))
+
+from decimal import Decimal
+print((0.1 + 0.1 + 0.1) - 0.3) #error(which is know problem in python)
+print(Decimal('0.1') + Decimal('0.1') + Decimal('0.1') - Decimal('0.3'))
 
 
