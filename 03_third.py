@@ -56,7 +56,7 @@ print(my_full_name.lower())
 
 print('--------------')
 
-print(my_full_name.strip())
+print(my_full_name.strip())     
 
 print('--------------')
 
